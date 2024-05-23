@@ -9,6 +9,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  // 커밋테스트
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
